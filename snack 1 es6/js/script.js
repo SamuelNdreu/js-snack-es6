@@ -62,14 +62,14 @@
 ]
 
 const benzina = [];
-const disel = [];
+const diesel = [];
 const other = []; 
 
 for(let i = 0; i < cars.length; i++){
     for(key in cars[i]){
         if(cars[i].alimentazione == 'benzina'){
             benzina.push(cars[i])
-        }else if(cars[i].alimentazione == 'disel'){
+        }else if(cars[i].alimentazione == 'diesel'){
             disel.push(cars[i])
         }else{
             other.push(cars[i])
