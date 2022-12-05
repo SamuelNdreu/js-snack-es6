@@ -65,19 +65,25 @@ const benzina = [];
 const diesel = [];
 const other = []; 
 
+// for(let i = 0; i < cars.length; i++){
+//     for(key in cars[i]){
+//         if(cars[i].alimentazione == 'benzina'){
+//             benzina.push(cars[i])
+//         }else if(cars[i].alimentazione == 'diesel'){
+//             disel.push(cars[i])
+//         }else{
+//             other.push(cars[i])
+//         }
+//     }
+// }
+
+// console.log(benzina);
+// console.log(diesel);
+// console.log(other);
+
+
+
+//CORRECTION
 for(let i = 0; i < cars.length; i++){
-    for(key in cars[i]){
-        if(cars[i].alimentazione == 'benzina'){
-            benzina.push(cars[i])
-        }else if(cars[i].alimentazione == 'diesel'){
-            disel.push(cars[i])
-        }else{
-            other.push(cars[i])
-        }
-    }
+    const 
 }
-
-console.log(benzina);
-console.log(diesel);
-console.log(other);
-
