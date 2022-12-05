@@ -50,8 +50,8 @@
         alimentazione : 'benzina'
     },
     {
-        marca : 'porche',
-        modello : '911',
+        marca : 'porsche',
+        modello : '911 GTS',
         alimentazione : 'benzina'
     },
     {
